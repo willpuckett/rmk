@@ -54,6 +54,7 @@ paste = "1"
 
 # Optional dependencies
 # BLE dependencies
+# TODO: Update to a new released version
 trouble-host = { version = "0.2.4", git = "https://github.com/embassy-rs/trouble", rev = "26ec679", features = [
     "gatt",
     "scan",
